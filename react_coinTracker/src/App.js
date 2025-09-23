@@ -26,7 +26,7 @@ function App() {
           <option value="default" disabled>
             Select a coin
           </option>
-          {coins.map((coin, idx) => (
+          {coins.map((coin) => (
             <option value={coin.id} key={coin.id}>
               {coin.name} ({coin.symbol})
             </option>
